@@ -1,0 +1,23 @@
+.socials {
+  position: absolute;
+  top: 10px;
+  right: 270px;
+}
+
+.socials__link {
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  background: center center no-repeat;
+}
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.social__item:last-child {
+margin-right: 0;
+}

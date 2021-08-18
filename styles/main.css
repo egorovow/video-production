@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('./layout/layout.css');
+@import url('./components/header.css');
+@import url('./components/logo.css');
+@import url('./components/nav.css');
+@import url('./components/adress.css');
+@import url('./components/button.css');
+@import url('./components/preview.css');
+@import url('./components/features.css');
+@import url('./components/socials.css');
+@import url('./components/news.css');
+@import url('./components/paginator.css');
+@import url('./components/about.css');
+@import url('./components/footer.css');
+
+/*
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.42;
+  background: #1c437e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+.container {
+  margin: 0 auto;
+  width: 1142px;
+  background-color: rgb(176, 128, 240);
+}
+
+.menu {
+  position: relative;
+  top: 47px;
+  left: 241px;
+}
+.contacts {
+  position: relative;
+  top: 32px;
+  right: 0;  
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+.contacts {
+font-style: normal;
+text-align: right;
+}
+.conacts__tel {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+.contacts__graph {
+  font-size: 13px;
+  color: #FF3D00;
+}

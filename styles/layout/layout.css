@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*p {
+  margin-top: 0;
+}*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+/*.wrapper {
+  min-height: 100%;
+}*/
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.wrapper {
+  background: url("../../img/hero.jpg") no-repeat top center, url("../../img/bottom-pic.jpg") no-repeat bottom center;
+  background-color: #17191C;
+}
+
+.footer-container__content {
+  border-top: 1px solid rgb(35, 35, 38);
+}

@@ -1,0 +1,22 @@
+.preview__title{
+  font-size: 72px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-align:center;
+  font-style: ExtraBold;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.preview__text{
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align:center;
+  margin-bottom: 43px;  
+}
+
+.preview__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 233px;
+}

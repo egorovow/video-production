@@ -1,0 +1,16 @@
+.site-nav {
+  display: inline-block;
+  position: relative;
+  top: -13px;
+}
+.site-nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+.site-nav__item {
+  display: inline-block;
+  margin-right: 54px;
+}
+.site-nav__link:hover{
+  color: #FF3D00;
+}

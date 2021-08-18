@@ -1,0 +1,53 @@
+.footer {
+  height: 150px;
+  position: relative;
+  margin-top: 45px;
+}
+
+.footer_logo {
+  margin-right: 130px;
+}
+
+.footer__adress {
+  float: right;
+  font-style: normal;
+}
+
+.site-adress__desc {
+  width: max-content;
+  margin-left: auto;
+  font-size: 11px;
+  color: #9A9A9A;
+}
+
+.social__item--icon--t {
+  background-image: url("../../img/t.png");
+}
+
+.social__item--icon--t:hover {
+  background-image: url("../../img/t-light.png");
+}
+
+.social__item--icon--vk {
+  background-image: url("../../img/vk.png");
+}
+
+.social__item--icon--vk:hover {
+  background-image: url("../../img/vk-light.png");
+}
+
+.social__item--icon--f {
+  background-image: url("../../img/f.png");
+}
+
+.social__item--icon--f:hover {
+  background-image: url("../../img/f-light.png");
+}
+
+.social__item--icon--in {
+  background-image: url("../../img/in.png");
+}
+
+.social__item--icon--in:hover {
+  background-image: url("../../img/in-light.png");
+}
