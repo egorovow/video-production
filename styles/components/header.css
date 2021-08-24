@@ -1,7 +1,7 @@
-.header {
-  padding: 25px 0;
+.header_content {
+  padding: 26px 0 96px;
   font-size: 14px;
-}
-.header_logo {
-  margin-right: 241px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

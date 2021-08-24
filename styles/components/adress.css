@@ -1,6 +1,5 @@
 .site-adress {
   font-style: normal;
-  float: right;
 }
 
 .site-adress__link {
@@ -17,6 +16,6 @@
   text-decoration-line: underline;
 }
 
-.site-adress__schedule:hover{
+.site-adress__schedule:hover {
   cursor: pointer;
 }

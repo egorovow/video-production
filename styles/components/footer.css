@@ -1,15 +1,16 @@
-.footer {
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 150px;
-  position: relative;
-  margin-top: 45px;
 }
 
-.footer_logo {
-  margin-right: 130px;
+.footer-conteiner{
+  background: #17191C;
+  /*padding: 50px;*/
 }
 
 .footer__adress {
-  float: right;
   font-style: normal;
 }
 

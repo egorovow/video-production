@@ -1,4 +1,5 @@
 .button {
+display: block;
 width: 195px;
 height: 55px;
 font-weight: bold;
@@ -6,11 +7,13 @@ color: #FF5500;
 background: #fff;
 text-align: center;
 text-transform: uppercase;
+text-decoration: none;
 cursor: pointer;
 border: 2px solid #FF5500;
 box-sizing: border-box;
 border-radius: 35px;
 }
+
 
 .button:hover {
   color: #fff;
@@ -18,6 +21,7 @@ border-radius: 35px;
 }
 
 .button-color {
+  display: block;
   width: 195px;
   height: 55px;
   font-weight: bold;
@@ -25,11 +29,13 @@ border-radius: 35px;
   background: #FF3D00;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
   border: 2px solid #FF5500;
   box-sizing: border-box;
   border-radius: 35px;
 }
+
 .button-color:hover {
   color: #FF3D00;
   background: #fff;

@@ -1,15 +1,12 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html, body {
   height: 100%;
 }
-
-/*p {
-  margin-top: 0;
-}*/
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -20,20 +17,28 @@ ul, li {
 }
 
 img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
 }
-
-/*.wrapper {
-  min-height: 100%;
-}*/
 
 .container {
   width: 1140px;
   margin: 0 auto;
 }
+
 .wrapper {
   background: url("../../img/hero.jpg") no-repeat top center, url("../../img/bottom-pic.jpg") no-repeat bottom center;
   background-color: #17191C;
+  overflow: hidden;
+  min-width: 1160px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.wrapper__content {
+  flex: 1;
 }
 
 .footer-container__content {
