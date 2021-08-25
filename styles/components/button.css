@@ -1,17 +1,19 @@
 .button {
-display: block;
-width: 195px;
-height: 55px;
-font-weight: bold;
-color: #FF5500;
-background: #fff;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none;
-cursor: pointer;
-border: 2px solid #FF5500;
-box-sizing: border-box;
-border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 55px;
+  font-weight: bold;
+  color: #FF5500;
+  background: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #FF5500;
+  box-sizing: border-box;
+  border-radius: 35px;
 }
 
 
@@ -21,7 +23,9 @@ border-radius: 35px;
 }
 
 .button-color {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 195px;
   height: 55px;
   font-weight: bold;
