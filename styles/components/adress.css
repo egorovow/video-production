@@ -19,3 +19,11 @@
 .site-adress__schedule:hover {
   cursor: pointer;
 }
+
+.site-adress__description {
+  background: url("/img/square.png") center center / cover no-repeat;
+  color: #1E1F20;
+  font-size: 13px;
+  width: max-content;
+  margin-left: auto;
+}

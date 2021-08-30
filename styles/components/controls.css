@@ -1,0 +1,53 @@
+.form__controls {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls--title {
+width: 33%;
+font-size: 18px;
+margin-right: 71px;
+color: #1A1B1E;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.controls__tag {
+  font-size: 13px;
+  color: #303030;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 13px;
+
+}
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 20px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}
