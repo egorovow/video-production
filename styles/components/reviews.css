@@ -1,4 +1,5 @@
 .reviews {
+  display: flex;
   column-count: 2;
   column-gap: 27px;
 }
