@@ -30,6 +30,7 @@ margin-bottom: 10px;
 .review__user:after {
 content: url("../../img/vk-blue.png");
 height: 30px;
+margin-left: 7px;
 }
 
 .avatar {
@@ -37,11 +38,13 @@ height: 30px;
   height: 140px;
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 22px;
 }
 
 .review__tags {
   display: flex;
   align-items: flex-start;
+  max-width: 168px;
 }
 
 .tag {
@@ -67,12 +70,16 @@ height: 30px;
   font-size: 16px;
   color: #818181;
   line-height: 1.5;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
+}
+
+.review__text {
+  padding-bottom: 50px;
 }
 
 .review__date {
   font-size: 14px;
   color: #1A1B1E;
   font-weight: bold;
-  margin-bottom: 33px;
+  /*margin-bottom: 33px;*/
 }

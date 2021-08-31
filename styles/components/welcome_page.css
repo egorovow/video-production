@@ -1,0 +1,48 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #17191C;
+  background-image: url("/img/welcome/fotomenu.png"), url("/img/welcome/bottom-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation: rotateIn 0.9s;
+  animation-fill-mode: forwards;
+}
+
+.central__logo {
+  margin-bottom: 38px;
+}
+
+@keyframes  rotateIn {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+  
+  70% {
+    transform: rotate(3deg);
+  }
+  
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
