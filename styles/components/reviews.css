@@ -2,14 +2,18 @@
   display: flex;
   column-count: 2;
   column-gap: 27px;
+  margin-bottom: 71px;
 }
 
-.review {
-  display: inline-flex;
-  flex-direction: column;
-  padding: 50px 31px 35px 30px;
-  background: #F4F5F5;
+.reviews-card {
   margin-bottom: 17px;
+  background: #F4F5F5;
+  padding: 50px 31px 35px 30px;
+  width: 557px;
+}
+
+.reviews-card:last-child {
+  margin-bottom: 0;
 }
 
 .review__header {
@@ -69,7 +73,7 @@ margin-left: 7px;
 .review__content-text {
   font-size: 16px;
   color: #818181;
-  line-height: 1.5;
+  line-height: 1.8;
   /*margin-bottom: 50px;*/
 }
 
