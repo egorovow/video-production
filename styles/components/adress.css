@@ -25,7 +25,7 @@
 .site-adress__description {
   position: relative;
   opacity: 0;
-  background: url("/img/square.png") center center / cover no-repeat;
+  background: url("../../img/square.png") center center / cover no-repeat;
   color: #1E1F20;
   font-size: 13px;
   width: max-content;
