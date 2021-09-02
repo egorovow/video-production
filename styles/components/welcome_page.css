@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   background-color: #17191C;
-  background-image: url("/img/welcome/fotomenu.png"), url("/img/welcome/bottom-pic.jpg");
+  background-image: url("../../img/welcome/fotomenu.png"), url("../../img/welcome/bottom-pic.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
