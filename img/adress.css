@@ -1,0 +1,45 @@
+.site-adress {
+  font-style: normal;
+}
+
+.site-adress__link {
+  font-size: 26px;
+  line-height: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-adress__schedule {
+  position: relative;
+  cursor: pointer;
+  width: max-content;
+  margin-left: auto;
+  color: #FF3D00;
+  text-decoration-line: underline;
+}
+
+.site-adress:hover > .site-adress__description {
+  opacity: 1;
+}
+
+.site-adress__description {
+  position: relative;
+  opacity: 0;
+  background: url("./img/square.png") center center / cover no-repeat;
+  color: #1E1F20;
+  font-size: 13px;
+  width: max-content;
+  margin-left: auto;
+  padding: 22px 15px;
+  border-radius: 5px;
+  height: 77px;
+  top: 2px;
+  transition: .5s all ease-in-out;
+}
+
+.site-adress__description-desc {
+  padding-bottom: 10px;
+  color: #1E1F20;
+  font-size: 13px;
+  font-weight: bold;
+}
